@@ -12,7 +12,7 @@ function RenderingLists() {
         {
             title: 'to kill a mockingbird',
             author: 'harper lee',
-            pages: 283
+            pages: 281
         },
         {
             title: 'the great gatsby',
@@ -25,7 +25,6 @@ function RenderingLists() {
             pages: 234
         }
     ]
-
     return (
         <div>
             {bookList.map(book => {
