@@ -22,6 +22,7 @@ import UnControlledForm from './components/UnControlledForm';
 import SearchBar from './components/SearchBar';
 import HooksCounter from './components/HooksCounter';
 import ClassCounter from './components/ClassCounter';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 
 function App() {
@@ -45,9 +46,10 @@ function App() {
       <LifeCyclesCWU />
       <ControlledForm />
       <UnControlledForm />
-      <SearchBar /> */}
+      <SearchBar />
       <HooksCounter />
-      <ClassCounter />
+      <ClassCounter /> */}
+      <ControlledFormHooks />
     </div>
   );
 }
